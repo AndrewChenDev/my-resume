@@ -11,10 +11,28 @@ export default function Experiences() {
           companyType={"News/ Media company"}
           timespan={"01/2024 - Present"}
           subText={"Burnaby, BC"}
-        ></Experience>
+        >
+          <Task
+            task={
+              "Comprehensive IT and web support services, including hardware troubleshooting and part replacements."
+            }
+          ></Task>
+          <Task
+            task={"Ensured consistent system uptime with website maintenance."}
+          ></Task>
+          <Task task={"Managed AWS and other server infrastructures."}></Task>
+          <Task
+            task={
+              "Provided rapid on-call emergency responses for website outages."
+            }
+          ></Task>
+        </Experience>
         <Experience
           title={"Full Stack Developer"}
+          company={"Lahoo Information Ltd"}
+          companyType={"News/ Media company"}
           timespan={"01/2022 - 12/2023"}
+          subText={"Burnaby, BC"}
         >
           <Task
             task={
@@ -60,9 +78,11 @@ export default function Experiences() {
         </Experience>
         <Experience
           title={"Front End Developer"}
+          company={"Lahoo Information Ltd"}
+          companyType={"News/ Media company"}
           timespan={"10/2020 - 01/2022"}
+          subText={"Burnaby, BC"}
         ></Experience>
-        <hr className={"text-light-text/70 px-1"} />
         <Experience
           title={"Software Developer"}
           company={"Boltz Technology"}
@@ -72,25 +92,7 @@ export default function Experiences() {
         >
           <Task
             task={
-              "Managed front-end development for WeChat mini programs, ensuring an intuitive user experience tailored to the platform's unique ecosystem."
-            }
-          />
-
-          <Task
-            task={
-              "Created cross-platform mobile applications for iOS and Android using Flutter, emphasizing consistency and performance across all devices."
-            }
-          />
-
-          <Task
-            task={
-              "Collaborated with UX/UI designers to transform designs into functional applications, continuously refining the user experience."
-            }
-          />
-
-          <Task
-            task={
-              "Regularly profiled and optimized application performance, striving for swift interactions, reduced load times, and efficient resource utilization."
+              "Led front-end development for WeChat mini programs and built cross-platform mobile apps with Flutter, focusing on user experience, consistency, and performance optimization. Collaborated with UX/UI teams for design implementation and conducted regular performance enhancements."
             }
           />
         </Experience>

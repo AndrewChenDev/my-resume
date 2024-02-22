@@ -46,8 +46,8 @@ export default function Professionals() {
           <Task>
             <p>
               <span className={"font-bold"}>Cost Optimization:</span> Reduced
-              monthly hosting and operational costs from $350 to $100 through
-              efficient resource utilization and service scaling.
+              monthly hosting and operational costs by 3x through efficient
+              resource utilization and service scaling.
             </p>
           </Task>
         </Experience>
@@ -94,9 +94,9 @@ export default function Professionals() {
             <span className={"font-bold"}>
               Backend Development & Automation:
             </span>{" "}
-            Designed and deployed a web crawler for automated property listing
-            imports from REW.ca. Enhanced backend functionality, streamlining
-            the process for users to efficiently manage and port listings.
+            Designed and deployed a web crawler for REW.ca to automate property
+            listing imports, enhancing backend efficiency for user management
+            and listing portability.
           </Task>
           <Task>
             {" "}

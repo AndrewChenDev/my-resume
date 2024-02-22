@@ -14,6 +14,7 @@ export default function Skills() {
           "Scss",
           "React",
           "Next.js",
+          "GraphQL",
           "jQuery",
           "PHP",
           "Node.js",
@@ -25,10 +26,10 @@ export default function Skills() {
           "MongoDB",
           "WordPress",
           "Docker",
-          "AWS (EC2, ECS, S3, CloudFront, Route53, RDS, CloudWatch)",
           "Windows",
           "Linux",
           "MacOS",
+          "AWS (EC2, ECS, S3, CloudFront, Route53, RDS, CloudWatch)",
         ]}
       />
 

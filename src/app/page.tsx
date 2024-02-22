@@ -10,20 +10,17 @@ import {
 export default function Home() {
   return (
     <>
-      <div className={"py-2.5 px-5"}>
-        <BasicInfo />
-      </div>
-
+      <BasicInfo />
       <hr />
       <Contacts />
       <hr />
 
-      <div className={"flex flex-row"}>
-        <div className="left py-2.5 px-5 w-1/2 flex flex-col gap-2.5">
+      <div className={"flex flex-row gap-[3.5rem]"}>
+        <div className="left w-1/2 flex flex-col gap-2.5">
           <Experiences />
         </div>
 
-        <div className="right py-2.5 px-5 w-1/2 flex flex-col gap-2.5">
+        <div className="right w-1/2 flex flex-col gap-2.5">
           <Skills />
           <Professionals />
           <Educations />

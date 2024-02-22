@@ -21,7 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main>{children}</main>
+        <section className={"page"}>{children}</section>
+        {/*<section className={"page"}>P2</section>*/}
+        {/*<section className={"page"}>P3</section>*/}
       </body>
     </html>
   );

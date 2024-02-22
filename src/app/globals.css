@@ -10,12 +10,14 @@ body {
     background: #999;
 }
 
-main {
+.page {
     background: white;
     height: 11in; /* Height of letter-size paper */
     width: 8.5in; /* Width of letter-size paper */
-    box-sizing: content-box;
-    page-break-after: always;
+    box-sizing: border-box;
+    border-bottom: 1px solid #999;
+    padding: 0.25in 0.25in;
+    margin-bottom: 0.25in;
 }
 
 .task {
@@ -28,8 +30,13 @@ main {
 
 /* Print-specific styles */
 @media print {
-    body, main {
+    body, .page {
         background: white;
+    }
+    .page{
+        border-bottom: none;
+        margin: 0;
+        overflow: hidden;
     }
 
     .page-break {

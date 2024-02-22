@@ -5,12 +5,14 @@ interface ContactPros {
   info?: string;
   Icon?: IconType;
   hyperlink?: boolean;
+  alternativeDisplay?: string;
 }
 
 export default function Contact({
   info,
   Icon,
   hyperlink = false,
+  alternativeDisplay,
 }: ContactPros) {
   return (
     <div className={"flex items-center space-x-1"}>
@@ -18,10 +20,10 @@ export default function Contact({
 
       {hyperlink ? (
         <Link href={`${info}`}>
-          <span className={"text-xs"}>{info}</span>
+          <span className={"text-xs"}>{alternativeDisplay ?? info}</span>
         </Link>
       ) : (
-        <span className={"text-xs"}>{info}</span>
+        <span className={"text-xs"}>{alternativeDisplay ?? info}</span>
       )}
     </div>
   );

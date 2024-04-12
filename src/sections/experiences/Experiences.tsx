@@ -5,28 +5,28 @@ export default function Experiences() {
     <section className={"experience-section"}>
       <h2 className={"uppercase text-primary font-bold"}>work experience</h2>
       <div className={"flex gap-2 flex-col"}>
-        <Experience
-          title={"Consultant & Technical Advisory"}
-          company={"Lahoo Information Ltd"}
-          companyType={"News/ Media company"}
-          timespan={"01/2024 - Present"}
-          subText={"Burnaby, BC"}
-        >
-          <Task
-            task={
-              "Comprehensive IT and web support services, including hardware troubleshooting and part replacements."
-            }
-          ></Task>
-          <Task
-            task={"Ensured consistent system uptime with website maintenance."}
-          ></Task>
-          <Task task={"Managed AWS and other server infrastructures."}></Task>
-          <Task
-            task={
-              "Provided rapid on-call emergency responses for website outages."
-            }
-          ></Task>
-        </Experience>
+        {/*<Experience*/}
+        {/*  title={"Consultant & Technical Advisory"}*/}
+        {/*  company={"Lahoo Information Ltd"}*/}
+        {/*  companyType={"News/ Media company"}*/}
+        {/*  timespan={"01/2024 - Present"}*/}
+        {/*  subText={"Burnaby, BC"}*/}
+        {/*>*/}
+        {/*  <Task*/}
+        {/*    task={*/}
+        {/*      "Comprehensive IT and web support services, including hardware troubleshooting and part replacements."*/}
+        {/*    }*/}
+        {/*  ></Task>*/}
+        {/*  <Task*/}
+        {/*    task={"Ensured consistent system uptime with website maintenance."}*/}
+        {/*  ></Task>*/}
+        {/*  <Task task={"Managed AWS and other server infrastructures."}></Task>*/}
+        {/*  <Task*/}
+        {/*    task={*/}
+        {/*      "Provided rapid on-call emergency responses for website outages."*/}
+        {/*    }*/}
+        {/*  ></Task>*/}
+        {/*</Experience>*/}
         <Experience
           title={"Full Stack Developer"}
           company={"Lahoo Information Ltd"}

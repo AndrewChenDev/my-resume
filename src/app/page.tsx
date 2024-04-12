@@ -18,12 +18,12 @@ export default function Home() {
       <div className={"flex flex-row gap-[3.5rem]"}>
         <div className="left w-1/2 flex flex-col gap-2.5">
           <Experiences />
+          <Educations />
         </div>
 
         <div className="right w-1/2 flex flex-col gap-2.5">
           <Skills />
           <Professionals />
-          <Educations />
         </div>
       </div>
     </>

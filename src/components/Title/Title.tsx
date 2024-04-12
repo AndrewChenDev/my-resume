@@ -1,5 +1,13 @@
 import React from "react";
 
-export default function Title({ children }: { children?: React.ReactNode }) {
-  return <span className={"text-sm text-light-text"}>{children}</span>;
+export default function Title({
+  children,
+  className = "",
+}: {
+  children?: React.ReactNode;
+  className?: string;
+}) {
+  return (
+    <span className={`text-sm text-light-text ${className}`}>{children}</span>
+  );
 }

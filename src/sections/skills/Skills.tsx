@@ -1,8 +1,8 @@
 import { Tags } from "@/components";
 
-export default function Skills() {
+export default function Skills({ className = "" }: { className?: string }) {
   return (
-    <section className="skills-section">
+    <section className={`skills-section ${className}`}>
       <h2 className={"uppercase text-primary font-bold"}>skills</h2>
       <Tags
         tags={[

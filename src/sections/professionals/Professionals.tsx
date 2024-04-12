@@ -1,8 +1,12 @@
 import { Experience, Task } from "@/components";
 
-export default function Professionals() {
+export default function Professionals({
+  className = "",
+}: {
+  className?: string;
+}) {
   return (
-    <section className="professional-section lahoo.ca">
+    <section className={`professional-section ${className}`}>
       <h2 className={"uppercase text-primary font-bold"}>
         professional project
       </h2>

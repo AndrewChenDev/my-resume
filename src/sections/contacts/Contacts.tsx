@@ -5,9 +5,9 @@ import { MdWeb } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { Contact } from "@/components";
 
-export default function Contacts() {
+export default function Contacts({ className = "" }: { className?: string }) {
   return (
-    <section className="contact-section">
+    <section className={`contact-section ${className}`}>
       <div className="info flex justify-center gap-3.5 py-1.5">
         {/*Email*/}
         <Contact Icon={TbMailOpenedFilled} info={"andrew@andrew.ac"} />

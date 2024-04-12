@@ -1,8 +1,12 @@
 import { Experience, Task } from "@/components";
 
-export default function Experiences() {
+export default function Experiences({
+  className = "",
+}: {
+  className?: string;
+}) {
   return (
-    <section className={"experience-section"}>
+    <section className={`experience-section ${className}`}>
       <h2 className={"uppercase text-primary font-bold"}>work experience</h2>
       <div className={"flex gap-2 flex-col"}>
         {/*<Experience*/}

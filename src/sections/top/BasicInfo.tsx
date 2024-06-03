@@ -1,14 +1,13 @@
-import { Name, SummaryStatement, Title } from "@/components";
+import { Contact, Name } from "@/components";
 
 export default function BasicInfo({ className = "" }: { className?: string }) {
   return (
     <section className={`top-section ${className}`}>
-      <Name className={"mb-2"}>Che An (Andrew) Chen</Name>
-      <Title>Full Stack Developer</Title>
-      <SummaryStatement>
-        An experienced web and software developer with ability work under
-        minimal supervision.
-      </SummaryStatement>
+      <Name className={"mb-2"}>Andrew Chen</Name>
+      <Contact
+        className={"w-full text-center"}
+        info={"Coquitlam, BC V3B 0G2"}
+      />
     </section>
   );
 }

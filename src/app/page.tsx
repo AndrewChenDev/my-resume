@@ -5,25 +5,25 @@ import {
   Experiences,
   Professionals,
   Skills,
+  Highlight,
+  Volunteer,
 } from "@/sections";
+import React from "react";
+import { educationData } from "@/data/education/educationData";
+import { volunteerData } from "@/data/volunteer/volunteerData";
+import { experiencesData } from "@/data/experiences/experiencesData";
+import { highlightData } from "@/data/highlight/highlightData";
 
 export default function Home() {
   return (
     <>
-      <BasicInfo className={"mb-4"} />
-      <hr />
-      <Contacts />
-      <hr />
-
+      {/*Page 1*/}
       <div className={"flex flex-row gap-[3.5rem] mt-4"}>
-        <div className="left w-1/2 flex flex-col gap-2.5">
-          <Experiences />
-          <Educations />
-        </div>
-
-        <div className="right w-1/2 flex flex-col gap-2.5">
-          <Skills />
-          <Professionals />
+        <div className=" w-full flex flex-col gap-4">
+          <Highlight highlightData={highlightData.main} />
+          <Experiences experiencesData={experiencesData.main} />
+          <Volunteer volunteerData={volunteerData.main} />
+          <Educations educationData={educationData.main} />
         </div>
       </div>
     </>

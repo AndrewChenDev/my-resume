@@ -4,6 +4,30 @@
 /* Apply a consistent base color profile */
 * {
     print-color-adjust: exact;
+    font-size: 12px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+h1{
+    font-size: 1.75em;
+}
+h2{
+    font-size: 1.25em;
+    @apply underline mb-4;
+}
+h3{
+    @apply font-medium;
+    font-size: 1.17em;
+}
+h4{
+    font-size: 1em;
+}
+h5{
+    font-size: 0.83em;
+}
+h6{
+    font-size: 0.67em;
 }
 
 body {
@@ -16,16 +40,16 @@ body {
     width: 8.5in; /* Width of letter-size paper */
     box-sizing: border-box;
     border-bottom: 1px solid #999;
-    padding: 0.25in 0.25in;
-    margin-bottom: 0.25in;
+    padding: 0.5in 0.5in;
+    margin-bottom: 0.5in;
 }
 
 .task {
-    @apply text-xs relative pl-2.5;
+    @apply relative pl-2.5;
 }
 
 .task:before {
-    @apply content-[''] border-t-2 border-t-primary w-1.5 absolute left-0 m-auto top-1.5;
+    @apply content-[''] border-t-2 border-t-primary w-1.5 absolute left-0 m-auto top-2.5;
 }
 
 /* Print-specific styles */

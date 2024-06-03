@@ -8,7 +8,9 @@ export default function Name({
   className?: string;
 }) {
   return (
-    <h1 className={`text-3xl text-primary leading-6 ${className}`}>
+    <h1
+      className={`text-3xl font-medium text-center text-primary leading-6 ${className}`}
+    >
       {children}
     </h1>
   );

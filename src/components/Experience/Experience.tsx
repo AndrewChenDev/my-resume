@@ -3,48 +3,48 @@ import clsx from "clsx";
 
 interface ExperienceProps {
   children?: ReactNode;
+  className?: string;
   title?: string;
   company?: string;
   companyType?: string;
   timespan?: string;
   subText?: string;
   capitalize?: boolean;
+  extraTitle?: ReactNode;
 }
 
 export default function Experience({
   children,
+  className,
   title,
   company,
-  companyType,
   timespan,
   subText,
   capitalize = false,
+  extraTitle,
 }: ExperienceProps) {
   return (
-    <>
-      <div>
+    <div className={`border-b last:border-none pb-4 ${className}`}>
+      <div className={"flex justify-between"}>
         <h3
-          className={clsx("text-sm font-bold", {
+          className={clsx("", {
             capitalize: capitalize,
           })}
         >
           {title}
         </h3>
-        <p className={"text-xs "}>{company}</p>
-        <section className={"pl-1.5"}>
-          <div className={"flex justify-between"}>
-            <span className={"text-xs text-[#7C7C7C]"}>{timespan}</span>
-            <span className={"text-xs text-[#7C7C7C]"}>{subText}</span>
-          </div>
-          <p className={"text-xs text-[#7C7C7C]"}>{companyType}</p>
-          {children && (
-            <div className={"mt-0.5"}>
-              <h4 className={"text-xs text-light-text"}>Achievements/Tasks</h4>
-              <ul className={"flex flex-col gap-1"}>{children}</ul>
-            </div>
-          )}
-        </section>
+        {timespan && <p className={"text-right"}>{timespan}</p>}
       </div>
-    </>
+      {extraTitle && <>{extraTitle}</>}
+      {company && (
+        <p className={"font-medium"}>
+          <span dangerouslySetInnerHTML={{ __html: company }} />
+          {subText && `, ${subText}`}
+        </p>
+      )}
+      <section>
+        {children && <ul className={"flex flex-col gap-1 ml-3"}>{children}</ul>}
+      </section>
+    </div>
   );
 }

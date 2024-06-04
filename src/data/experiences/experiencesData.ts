@@ -1,4 +1,7 @@
-export const experiencesData = {
+type ExperiencesDataType = {
+  [key: string]: any;
+};
+export const experiencesData: ExperiencesDataType = {
   main: [
     {
       title: "Full Stack Developer",
@@ -28,7 +31,7 @@ export const experiencesData = {
       ],
     },
   ],
-  "logo.com": [
+  logo: [
     {
       title: "Full Stack Developer (Previously Front End Developer)",
       company: "Lahoo Information Ltd",

@@ -6,7 +6,10 @@
  * 2. Education
  * 3. Skills
  */
-export const highlightData = {
+type HighlightDataType = {
+  [key: string]: string[];
+};
+export const highlightData: HighlightDataType = {
   main: [
     "3+ Years experience in Web Development",
     "Diploma in Computer Systems",
@@ -16,7 +19,7 @@ export const highlightData = {
     "Experienced in creating mobile applications",
     "Strong proficiency in written and verbal communication in English",
   ],
-  "logo.com": [
+  logo: [
     "3+ years of experience in web development with a focus on fullstack projects",
     "Diploma in Computer Systems",
     "Experienced in TypeScript, React (Next.js), Express, and SQL",

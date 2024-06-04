@@ -29,7 +29,7 @@ export default function Experiences({
               subText={experience.subText}
               extraTitle={extraTitle}
             >
-              {experience.tasks.map((task: string, index: number) => {
+              {experience?.tasks?.map((task: string, index: number) => {
                 return <Task key={index} task={task} />;
               })}
             </Experience>

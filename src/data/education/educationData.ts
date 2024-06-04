@@ -1,4 +1,7 @@
-export const educationData = {
+type EducationDataType = {
+  [key: string]: any[];
+};
+export const educationData: EducationDataType = {
   main: [
     {
       title: "Diploma – Computer Systems Technology",

@@ -1,4 +1,7 @@
-export const volunteerData = {
+type VolunteerDataType = {
+  [key: string]: any[];
+};
+export const volunteerData: VolunteerDataType = {
   main: [
     {
       title: "Assistant Backend Developer",

@@ -56,4 +56,58 @@ export const experiencesData: ExperiencesDataType = {
       ],
     },
   ],
+  coinbase: [],
+  ashare: [],
+  motionMetrics: [
+    {
+      title: "Full Stack Developer (Previously Front End Developer)",
+      company: "Lahoo Information Ltd",
+      companyType: "News/ Media company",
+      timespan: "Oct 2020 - Dec 2023",
+      subText: "Burnaby, BC",
+      tasks: [
+        "Built and maintained full stack applications using React.js(Next.js) for the frontend and PHP, and MySQL for the backend, ensuring seamless integration and functionality, leading to a 300% decrease in load time for web applications",
+        "Deployed cost-effective, scalable AWS infrastructure, including EC2 Auto-scaling, ECS, CloudFront, ELB, S3, and RDS, optimizing cloud performance and cost management",
+        "Collaborated with customers and business stakeholders to propose and implement advanced monitoring solutions, enhancing product performance and customer satisfaction",
+      ],
+    },
+    {
+      title: "Software Developer",
+      company: "Boltz Technology",
+      companyType: "Power-Bank Sharing company",
+      timespan: "Oct 2019 - Feb 2020",
+      subText: "Richmond, BC",
+      tasks: [
+        "Handled Front-end development for WeChat mini programs and built cross-platform mobile apps with Flutter, ensuring exceptional user experience, consistency, and performance optimization",
+      ],
+    },
+  ],
+  arcteryx: [
+    {
+      title: "Full Stack Developer (Previously Front End Developer)",
+      company: "Lahoo Information Ltd",
+      companyType: "News/ Media company",
+      timespan: "Oct 2020 - Dec 2023",
+      subText: "Burnaby, BC",
+      tasks: [
+        "Developed and maintained high-performance, user-friendly websites using modern web technologies, ensuring seamless user experiences",
+        "Implemented front-end solutions with Next.js, creating responsive and interactive web designs",
+        "Configured and managed AWS environments, ensuring secure and scalable web infrastructure",
+        "Created internal software tools to enhance operational efficiency and improve user satisfaction",
+      ],
+    },
+    {
+      title: "Software Developer",
+      company: "Boltz Technology",
+      companyType: "Power-Bank Sharing company",
+      timespan: "Oct 2019 - Feb 2020",
+      subText: "Richmond, BC",
+      tasks: [
+        "Built cross-platform mobile apps with Flutter, focusing on user experience, consistency, and performance optimization",
+        "Collaborated with UX/UI teams for design implementation and conducted regular performance enhancements",
+      ],
+    },
+  ],
 };
+experiencesData.coinbase = experiencesData.logo;
+experiencesData.ashare = experiencesData.logo;

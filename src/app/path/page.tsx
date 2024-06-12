@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Path() {
   return (
     <>
-      <ul className={"flex gap-5"}>
+      <ul className={"flex gap-5 flex-wrap"}>
         <li className={"list-disc"}>
           <Link className={"text-2xl text-blue-600"} href={"/"}>
             main

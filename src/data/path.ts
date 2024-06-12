@@ -5,4 +5,8 @@ export const routes = [
   { company: "share" },
   { company: "motionMetrics" },
   { company: "arcteryx" },
+  { company: "later" },
+  { company: "flutter-care" },
+  { company: "visualping" },
+  { company: "scribd" },
 ];

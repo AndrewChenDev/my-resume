@@ -51,6 +51,42 @@ export const highlightData: HighlightDataType = {
     "Exceptional communication and documentation skills.",
     "Demonstrated dedication to continuous learning and technology exploration.",
   ],
+  later: [
+    "3+ years of experience as a full-stack software developer",
+    "2+ years of expertise in developing distributed web applications",
+    "Diploma in Computer Systems",
+    "Proficient in TypeScript with addition React, Express.js, and Node.js.",
+    "Experienced in AWS services (EC2, Lambda, S3, CloudFront, ECS, RDS)",
+    "Experienced using CI/CD pipelines, monitoring, and observability tools.",
+    "Skilled in both SQL and NoSQL databases (e.g., MongoDB, MYSQL).",
+    "Knowledgeable in algorithmic complexity, optimizing code performance and efficiency.",
+  ],
+  "flutter-care": [
+    "3+ years of experience as a full-stack software developer",
+    "Proficient in JavaScript/TypeScript with extensive experience developing mobile apps using these languages.",
+    "Proficient in Node.js and Firebase for building robust backend systems.",
+    "Collaborated with design leads to create intuitive and user-friendly interfaces.",
+    "Strong interpersonal skills contributing to a positive work environment.",
+    "Excellent at documenting work and maintaining tests and diagnostic tools.",
+    "Quickly learns new technologies and frameworks, eager to grow as a full-stack developer.",
+  ],
+  visualping: [
+    "3+ years of experience as a full-stack software developer",
+    "Diploma in Computer Systems",
+    "Experienced in TypeScript, React (Next.js), Tailwind CSS",
+    "Experienced using CI/CD pipelines, monitoring, and observability tools.",
+    "Good team player with a ‘can do’ attitude and proven ability to propel projects and teams to peak results while working with minimal supervision.",
+    "Strong proficiency in written and verbal communication in English",
+  ],
+  scribd: [
+    "3+ years of experience as a full-stack software developer",
+    "Diploma in Computer Systems",
+    "Experienced in TypeScript, React (Next.js), MySQL, Tailwind CSS, and GraphQL",
+    "Experienced in AWS services (EC2, Lambda, S3, CloudFront, ECS, RDS)",
+    "Experienced using CI/CD pipelines, monitoring, and observability tools.",
+    "Good team player with a ‘can do’ attitude and proven ability to propel projects and teams to peak results while working with minimal supervision.",
+    "Strong proficiency in written and verbal communication in English",
+  ],
 };
 highlightData.coinbase = highlightData.logo;
 highlightData.ashare = highlightData.logo;

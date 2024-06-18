@@ -185,6 +185,93 @@ export const experiencesData: ExperiencesDataType = {
       ],
     },
   ],
+  heart_and_stroke: [
+    {
+      title: "Full Stack Developer",
+      company: "Lahoo Information Ltd",
+      companyType: "News/ Media company",
+      timespan: "Jan 2022 - Dec 2023",
+      subText: "Burnaby, BC",
+      extraTitle: {
+        title: "Front End Developer",
+        timespan: "Oct 2022 - Jan 2022",
+      },
+      tasks: [
+        "Built and maintained full stack applications using React.js(Next.js) for the frontend and PHP, and MySQL for the backend, ensuring seamless integration and functionality, leading to a 300% decrease in load time for web applications",
+        "Transforming Figma designs into responsive React components using Tailwind CSS for efficient, pixel-perfect front-end development",
+        "Deployed cost-effective, scalable AWS infrastructure, including EC2 Auto-scaling, ECS, CloudFront, ELB, S3, and RDS, optimizing cloud performance and cost management",
+        "Collaborated with customers and business stakeholders to propose and implement advanced monitoring solutions, enhancing product performance and customer satisfaction",
+      ],
+    },
+    {
+      title: "Software Developer",
+      company: "Boltz Technology",
+      companyType: "Power-Bank Sharing company",
+      timespan: "Oct 2019 - Feb 2020",
+      subText: "Richmond, BC",
+      tasks: [
+        "Handled Front-end development for WeChat mini programs and built cross-platform mobile apps with Flutter, ensuring exceptional user experience, consistency, and performance optimization",
+      ],
+    },
+  ],
+  pocketpills: [
+    {
+      title: "Full Stack Developer",
+      company: "Lahoo Information Ltd",
+      companyType: "News/ Media company",
+      timespan: "Jan 2022 - Dec 2023",
+      subText: "Burnaby, BC",
+      extraTitle: {
+        title: "Front End Developer",
+        timespan: "Oct 2022 - Jan 2022",
+      },
+      tasks: [
+        "Built and maintained full stack applications using React.js(Next.js) for the frontend and PHP, and MySQL for the backend, ensuring seamless integration and functionality, leading to a 300% decrease in load time for web applications",
+        "Transforming Figma designs into responsive React components using Tailwind CSS for efficient, pixel-perfect front-end development",
+        "Deployed cost-effective, scalable AWS infrastructure, including EC2 Auto-scaling, ECS, CloudFront, ELB, S3, and RDS, optimizing cloud performance and cost management",
+        "Collaborated with customers and business stakeholders to propose and implement advanced monitoring solutions, enhancing product performance and customer satisfaction",
+      ],
+    },
+    {
+      title: "Software Developer",
+      company: "Boltz Technology",
+      companyType: "Power-Bank Sharing company",
+      timespan: "Oct 2019 - Feb 2020",
+      subText: "Richmond, BC",
+      tasks: [
+        "Handled Front-end development for WeChat mini programs and built cross-platform mobile apps with Flutter, ensuring exceptional user experience, consistency, and performance optimization",
+      ],
+    },
+  ],
+  paypal: [
+    {
+      title: "Full Stack Developer",
+      company: "Lahoo Information Ltd",
+      companyType: "News/ Media company",
+      timespan: "Jan 2022 - Dec 2023",
+      subText: "Burnaby, BC",
+      extraTitle: {
+        title: "Front End Developer",
+        timespan: "Oct 2022 - Jan 2022",
+      },
+      tasks: [
+        "Built and maintained full stack applications using React.js(Next.js) for the frontend and PHP, and MySQL for the backend, ensuring seamless integration and functionality, leading to a 300% decrease in load time for web applications",
+        "Transforming Figma designs into responsive React components using Tailwind CSS for efficient, pixel-perfect front-end development",
+        "Deployed cost-effective, scalable AWS infrastructure, including EC2 Auto-scaling, ECS, CloudFront, ELB, S3, and RDS, optimizing cloud performance and cost management",
+        "Collaborated with customers and business stakeholders to propose and implement advanced monitoring solutions, enhancing product performance and customer satisfaction",
+      ],
+    },
+    {
+      title: "Software Developer",
+      company: "Boltz Technology",
+      companyType: "Power-Bank Sharing company",
+      timespan: "Oct 2019 - Feb 2020",
+      subText: "Richmond, BC",
+      tasks: [
+        "Handled Front-end development for WeChat mini programs and built cross-platform mobile apps with Flutter, ensuring exceptional user experience, consistency, and performance optimization",
+      ],
+    },
+  ],
 };
 experiencesData.coinbase = experiencesData.logo;
 experiencesData.ashare = experiencesData.logo;

@@ -87,6 +87,35 @@ export const highlightData: HighlightDataType = {
     "Good team player with a ‘can do’ attitude and proven ability to propel projects and teams to peak results while working with minimal supervision.",
     "Strong proficiency in written and verbal communication in English",
   ],
+  heart_and_stroke: [
+    "2+ years of experience as a full-stack software developer",
+    "Diploma in Computer Systems",
+    "Experienced in HTML, CSS, TypeScript, React (Next.js), and MySQL",
+    "Experienced in version control systems (Github) and  CI/CD pipelines (Github Actions)",
+    "Experienced in AWS services (EC2, Lambda, S3, CloudFront, ECS, RDS)",
+    "Hands-on experience in utilizing email modules and templates",
+    "Adaptable to both cooperative team efforts and self-directed work",
+    "Strong proficiency in written and verbal communication in English",
+  ],
+  pocketpills: [
+    "2+ years of experience as a full-stack software developer",
+    "Diploma in Computer Systems",
+    "Experienced in HTML, CSS, TypeScript, React, ES6, Webpack, and CSS3",
+    "Experienced with authentication mechanisms, the HTTP protocol, and REST API",
+    "Experienced in working with Playwright and similar testing frameworks",
+    "Skilled in writing modular, well-documented, testable, and maintainable code",
+    "Proficient in transforming UI/UX designs into responsive, cross-browser compatible production code",
+    "Eager to engage in innovation, experimentation, collaboration, and lifelong learning",
+  ],
+  paypal: [
+    "3+ years of experience as a full-stack software developer",
+    "Diploma in Computer Systems",
+    "Expert knowledge in React JS fundamentals, JavaScript, HTML, CSS, Node.js, and Express.js.",
+    "Experienced in working with Playwright and similar testing frameworks",
+    "Experience with software design patterns, data structures, and algorithms.",
+    "Strong debugging and problem-solving skills.",
+    "Strong proficiency in written and verbal communication in English",
+  ],
 };
 highlightData.coinbase = highlightData.logo;
 highlightData.ashare = highlightData.logo;

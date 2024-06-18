@@ -9,4 +9,8 @@ export const routes = [
   { company: "flutter-care" },
   { company: "visualping" },
   { company: "scribd" },
+  { company: "heart_and_stroke" },
+  { company: "pocketpills" },
+  { company: "paypal" },
+  { company: "cascadia_scientific_inc" },
 ];

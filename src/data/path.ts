@@ -13,4 +13,8 @@ export const routes = [
   { company: "pocketpills" },
   { company: "paypal" },
   { company: "cascadia_scientific_inc" },
+  { company: "bluebits" },
+  { company: "pixieset" },
+  { company: "m-work" },
+  { company: "chenyu" },
 ];

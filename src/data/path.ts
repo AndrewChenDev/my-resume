@@ -17,4 +17,5 @@ export const routes = [
   { company: "pixieset" },
   { company: "m-work" },
   { company: "chenyu" },
+  { company: "ISL18R" },
 ];

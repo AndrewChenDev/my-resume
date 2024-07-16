@@ -155,6 +155,17 @@ export const highlightData: HighlightDataType = {
     "Experience in Flutter development",
     "Strong proficiency in written and verbal communication in English and Chinese",
   ],
+  ISL18R: [
+    "2+ years of experience as a full-stack software developer",
+    "Diploma in Computer Systems",
+    "Proficient in JavaScript, HTML, and CSS",
+    "Proficient in React.js, Node.js",
+    "Skilled in both SQL and NoSQL databases (e.g., MongoDB, MYSQL).",
+    "Skilled in creating and deploying microservices with REST API",
+    "Skilled in utilizing digital resources for problem-solving and solution implementation",
+    "Experienced in CI/CD pipelines",
+    "Proven track record of effective team collaboration",
+  ],
 };
 highlightData.coinbase = highlightData.logo;
 highlightData.ashare = highlightData.logo;

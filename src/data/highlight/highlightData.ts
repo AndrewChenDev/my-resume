@@ -12,12 +12,13 @@ type HighlightDataType = {
 
 export const highlightData: HighlightDataType = {
   main: [
-    "3+ Years experience in Web Development",
+    "2+ years of experience as a full-stack software developer",
     "Diploma in Computer Systems",
-    "Proficient in JavaScript, HTML, and CSS",
-    "Proficient in React and NodeJS, with a strong background in developing reusable UI components.",
     "Familiar with back-end technologies, including Java and PHP",
-    "Experienced in creating mobile applications",
+    "Proficient in JavaScript, TypeScript, React.js, Express, Node.js, MySQL, and MongoDB",
+    "Skilled in creating and deploying microservices with REST API design patterns",
+    "Skilled in containerization with Docker.",
+    "Experienced in AWS services (EC2, Lambda, S3, CloudFront, ECS, RDS)",
     "Strong proficiency in written and verbal communication in English",
   ],
   logo: [

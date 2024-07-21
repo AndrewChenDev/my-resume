@@ -2,18 +2,7 @@ import type { Metadata } from "next";
 import { Ubuntu } from "next/font/google";
 import "./globals.css";
 import React from "react";
-import {
-  BasicInfo,
-  Contacts,
-  Educations,
-  Experiences,
-  Highlight,
-  Volunteer,
-} from "@/sections";
-import { highlightData } from "@/data/highlight/highlightData";
-import { experiencesData } from "@/data/experiences/experiencesData";
-import { volunteerData } from "@/data/volunteer/volunteerData";
-import { educationData } from "@/data/education/educationData";
+import { BasicInfo, Contacts } from "@/sections";
 
 const inter = Ubuntu({
   weight: ["300", "400", "500", "700"],
@@ -33,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <section className={"page"}>
+        <section id={"resume-content"} className={"page"}>
           <BasicInfo className={""} />
           <Contacts />
           <hr />

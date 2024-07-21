@@ -7,7 +7,7 @@ export const volunteerData: VolunteerDataType = {
       title: "Assistant Backend Developer",
       company: "8it",
       companyType: "Mobile App",
-      timespan: "Feb 2019 - Apr2019",
+      timespan: "Feb 2019 - Apr 2019",
       subText: "Vancouver, BC",
       tasks: [
         "Developed backend search functionality for integration with two major food delivery services, enhancing search accuracy by 20% using Google Maps and Places APIs",

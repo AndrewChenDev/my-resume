@@ -14,7 +14,7 @@ export default function Experiences({
         {experiencesData.map((experience: any, index: number) => {
           const extraTitle = experience?.extraTitle ? (
             <Experience
-              className={"!p-0"}
+              className={"p-0!"}
               title={experience.extraTitle.title}
               timespan={experience.extraTitle.timespan}
             />

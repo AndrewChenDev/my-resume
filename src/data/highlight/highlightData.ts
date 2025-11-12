@@ -167,6 +167,15 @@ export const highlightData: HighlightDataType = {
     "Experienced in CI/CD pipelines",
     "Proven track record of effective team collaboration",
   ],
+    Ace1Media:[
+        "5+ years of experience as a full-stack software developer",
+        "Diploma in Computer Systems",
+        "Proficient in JavaScript, TypeScript, React.js, Next.js, Node.js, Express, and MySQL",
+        "Experienced in AWS services (Lambda, ECS, S3, DynamoDB, EventBridge, CloudFront, RDS, EC2) and Vercel deployment",
+        "Skilled in microservices architecture, REST API design, and containerization with Docker",
+        "Experience with Google Ads API and Playwright for automation and testing",
+        "Strong written and verbal communication skills"
+    ]
 };
 highlightData.coinbase = highlightData.logo;
 highlightData.ashare = highlightData.logo;

@@ -9,7 +9,7 @@ export default function Volunteer({
 }) {
   return (
     <section className={`experience-section ${className}`}>
-      <h2 className={"uppercase text-primary"}>volunteer experience</h2>
+      {Boolean(volunteerData.length) && <h2 className={"uppercase text-primary"}>volunteer experience</h2>}
       <div className={"flex gap-2 flex-col"}></div>
       {volunteerData.map((volunteer: any, index: number) => {
         return (

@@ -12,14 +12,13 @@ type HighlightDataType = {
 
 export const highlightData: HighlightDataType = {
   main: [
-    "2+ years of experience as a full-stack software developer",
+    "5+ years of experience as a full-stack software developer",
     "Diploma in Computer Systems",
-    "Familiar with back-end technologies, including Java and PHP",
-    "Proficient in JavaScript, TypeScript, React.js, Express, Node.js, MySQL, and MongoDB",
-    "Skilled in creating and deploying microservices with REST API design patterns",
-    "Skilled in containerization with Docker.",
-    "Experienced in AWS services (EC2, Lambda, S3, CloudFront, ECS, RDS)",
-    "Strong proficiency in written and verbal communication in English",
+    "Proficient in JavaScript, TypeScript, React.js, Next.js, Node.js, Express, and MySQL",
+    "Experienced in AWS services (Lambda, ECS, S3, DynamoDB, EventBridge, CloudFront, RDS, EC2) and Vercel deployment",
+    "Skilled in microservices architecture, REST API design, and containerization with Docker",
+    "Experience with Google Ads API and Playwright for automation and testing",
+    "Strong written and verbal communication skills",
   ],
   logo: [
     "3+ years of experience in Web Development with a focus on fullstack projects",
@@ -167,15 +166,15 @@ export const highlightData: HighlightDataType = {
     "Experienced in CI/CD pipelines",
     "Proven track record of effective team collaboration",
   ],
-    Ace1Media:[
-        "5+ years of experience as a full-stack software developer",
-        "Diploma in Computer Systems",
-        "Proficient in JavaScript, TypeScript, React.js, Next.js, Node.js, Express, and MySQL",
-        "Experienced in AWS services (Lambda, ECS, S3, DynamoDB, EventBridge, CloudFront, RDS, EC2) and Vercel deployment",
-        "Skilled in microservices architecture, REST API design, and containerization with Docker",
-        "Experience with Google Ads API and Playwright for automation and testing",
-        "Strong written and verbal communication skills"
-    ]
+  Ace1Media: [
+    "5+ years of experience as a full-stack software developer",
+    "Diploma in Computer Systems",
+    "Proficient in JavaScript, TypeScript, React.js, Next.js, Node.js, Express, and MySQL",
+    "Experienced in AWS services (Lambda, ECS, S3, DynamoDB, EventBridge, CloudFront, RDS, EC2) and Vercel deployment",
+    "Skilled in microservices architecture, REST API design, and containerization with Docker",
+    "Experience with Google Ads API and Playwright for automation and testing",
+    "Strong written and verbal communication skills",
+  ],
 };
 highlightData.coinbase = highlightData.logo;
 highlightData.ashare = highlightData.logo;

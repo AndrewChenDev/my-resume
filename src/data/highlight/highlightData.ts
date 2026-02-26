@@ -175,6 +175,15 @@ export const highlightData: HighlightDataType = {
     "Experience with Google Ads API and Playwright for automation and testing",
     "Strong written and verbal communication skills",
   ],
+  "epic-games": [
+    "5+ years of experience as a backend-focused software developer",
+    "Diploma in Computer Systems",
+    "Strong expertise in backend services development with Node.js, Express, and RESTful API design patterns",
+    "Deep knowledge of relational (MySQL, RDS) and NoSQL (DynamoDB, MongoDB) database systems",
+    "Experienced in AWS cloud services (Lambda, ECS, S3, DynamoDB, EventBridge, CloudFront, RDS, EC2) for scalable, highly-available infrastructure",
+    "Skilled in microservices architecture, containerization with Docker, and CI/CD pipelines",
+    "Strong verbal and written communication skills in English and Chinese (Mandarin)",
+  ],
 };
 highlightData.coinbase = highlightData.logo;
 highlightData.ashare = highlightData.logo;

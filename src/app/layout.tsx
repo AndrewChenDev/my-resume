@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Ubuntu } from "next/font/google";
 import "./globals.css";
 import React from "react";
-import { BasicInfo, Contacts } from "@/sections";
 
 const inter = Ubuntu({
   weight: ["300", "400", "500", "700"],
@@ -22,12 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <section id={"resume-content"} className={"page"}>
-          <BasicInfo className={""} />
-          <Contacts />
-          <hr />
-          {children}
-        </section>
+        <div id="resume-content">{children}</div>
       </body>
     </html>
   );

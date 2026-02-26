@@ -3,5 +3,5 @@ type VolunteerDataType = {
 };
 export const volunteerData: VolunteerDataType = {
   main: [],
-    Ace1Media:[]
+  Ace1Media: [],
 };

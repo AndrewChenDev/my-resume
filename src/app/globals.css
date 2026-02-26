@@ -58,12 +58,18 @@ body {
 
 .page {
     background: white;
-    height: 11in; /* Height of letter-size paper */
+    min-height: 11in; /* Height of letter-size paper */
+    height: 11in;
     width: 8.5in; /* Width of letter-size paper */
     box-sizing: border-box;
     border-bottom: 1px solid #999;
     padding: 0.5in 0.5in;
     margin-bottom: 0.5in;
+    overflow: hidden;
+}
+
+.page-break {
+    margin-top: 0;
 }
 
 .task {

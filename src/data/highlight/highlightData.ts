@@ -175,6 +175,15 @@ export const highlightData: HighlightDataType = {
     "Experience with Google Ads API and Playwright for automation and testing",
     "Strong written and verbal communication skills",
   ],
+  "automotiv-ai": [
+    "5+ years of experience as a full-stack software developer",
+    "Diploma in Computer Systems",
+    "Proficient in React.js, Next.js, Node.js, Express, TypeScript, and MySQL with strong REST API design experience",
+    "Experienced in production deployment with Vercel, Docker/ECS, and CI/CD pipelines",
+    "Skilled in database design with both relational (MySQL, RDS) and NoSQL (DynamoDB, MongoDB) systems",
+    "Experienced in third-party API integrations and building scalable SaaS platforms serving real users",
+    "Self-starter with startup mentality, proven ability to own features end-to-end with minimal supervision",
+  ],
   "epic-games": [
     "5+ years of experience as a backend-focused software developer",
     "Diploma in Computer Systems",

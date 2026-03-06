@@ -28,7 +28,15 @@ export const highlightData: HighlightDataType = {
     "Strong problem-solving skills with a self-starter mindset",
     "Strong proficiency in written and verbal communication in English",
   ],
-  coinbase: [],
+  coinbase: [
+    "5+ years of experience as a full-stack software developer with a focus on backend services and scalable systems",
+    "Diploma in Computer Systems",
+    "Strong expertise in Node.js, Express, and REST API design with experience building service-oriented architectures",
+    "Solid understanding of relational databases (MySQL, RDS) and NoSQL systems (DynamoDB, MongoDB) including transaction handling",
+    "Experienced in AWS services (Lambda, ECS, S3, DynamoDB, EventBridge, RDS, EC2) for building scalable, production-grade infrastructure",
+    "Skilled in microservices architecture, containerization with Docker, and CI/CD pipelines",
+    "Strong written and verbal communication skills with experience collaborating across engineering, product, and design teams",
+  ],
   ashare: [],
   motionMetrics: [
     "3+ years of experience in Full Stack Web Development with proficiency in both Frontend and Backend",
@@ -193,6 +201,14 @@ export const highlightData: HighlightDataType = {
     "Skilled in microservices architecture, containerization with Docker, and CI/CD pipelines",
     "Strong verbal and written communication skills in English and Chinese (Mandarin)",
   ],
+  "prospect-prediction-markets": [
+    "5+ years of experience as a full-stack software developer in production environments",
+    "Diploma in Computer Systems",
+    "Strong proficiency in Node.js, Express, React.js, Next.js, and TypeScript with hands-on experience building scalable microservices and REST APIs",
+    "Experienced in AWS services (Lambda, ECS, S3, DynamoDB, EventBridge, RDS, EC2) and containerized deployments with Docker",
+    "Skilled in distributed systems architecture, relational (MySQL, RDS, Postgres) and NoSQL (DynamoDB, MongoDB) databases, and caching strategies",
+    "Experienced with CI/CD pipelines, WebSockets, real-time systems, and AI-assisted development tools (Claude Code, Codex); comfortable owning features end-to-end from design to deployment",
+    "Strong written and verbal communication skills; thrives in high-ownership, fast-moving engineering cultures",
+  ],
 };
-highlightData.coinbase = highlightData.logo;
 highlightData.ashare = highlightData.logo;

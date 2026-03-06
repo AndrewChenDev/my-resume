@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import {
   BasicInfo,
   Contacts,
@@ -15,6 +16,18 @@ import { routes } from "@/data/path";
 import PaginatedResume from "@/components/PaginatedResume/PaginatedResume";
 
 export const dynamicParams = false;
+
+export async function generateMetadata(props: {
+  params: Promise<{ company: string }>;
+}): Promise<Metadata> {
+  const { company } = await props.params;
+  const companyName = company
+    .replace(/[-_]/g, " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+  return {
+    title: `Andrew's Resume - ${companyName}`,
+  };
+}
 
 export function generateStaticParams() {
   return routes;

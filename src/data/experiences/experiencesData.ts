@@ -10,10 +10,10 @@ export const experiencesData: ExperiencesDataType = {
       timespan: "Mar 2025 - Current",
       subText: "Burnaby, BC",
       tasks: [
-        "Developed operation and sales portals to track 1,500+ leads and onboard 60+ merchants, driving business growth and team efficiency",
-        "Built and maintained Node.js backend APIs across multiple microservices (order management, menu systems), deployed on Heroku, AWS Lambda, and Docker/ECS",
-        "Architected cloud infrastructure using AWS services including S3, DynamoDB, Lambda, EventBridge, ECS, and RDS for scalable restaurant technology solutions",
-        "Led development of WhatsDish delivery driver web application using Next.js and coordinated with mobile contractors to ensure cross-platform feature parity",
+        "Sole developer of the operations and sales portal using Next.js, DynamoDB, and Tailwind CSS — built end-to-end and independently, tracking 1,500+ leads and onboarding 60+ merchants",
+        "Built driver signup page and Lambda backend services, owning the full stack from UI to cloud deployment",
+        "Refactored an 8,000-line monolithic file and multiple legacy codebases using AI-assisted tools (Claude Code, Codex), improving modularity, readability, and maintainability",
+        "Led internal initiative to integrate AI into the engineering workflow — researched and implemented Claude, Codex, MCP servers, agent teams, and RAG systems to reduce developer overhead and accelerate delivery",
         "Integrated Deliverect POS API to expand restaurant partner capabilities and streamline order management workflows",
       ],
     },
@@ -66,7 +66,44 @@ export const experiencesData: ExperiencesDataType = {
       ],
     },
   ],
-  coinbase: [],
+  coinbase: [
+    {
+      title: "Software Developer",
+      company: "Origineer Consulting Inc",
+      companyType: "Restaurant Technology",
+      timespan: "Mar 2025 - Current",
+      subText: "Burnaby, BC",
+      tasks: [
+        "Built and maintained Node.js backend APIs across multiple microservices (order management, menu systems), deployed on Heroku, AWS Lambda, and Docker/ECS",
+        "Architected cloud infrastructure using AWS services including S3, DynamoDB, Lambda, EventBridge, ECS, and RDS for scalable restaurant technology solutions",
+        "Integrated Deliverect POS API to expand restaurant partner capabilities and streamline order management workflows",
+        "Developed operation and sales portals to track 1,500+ leads and onboard 60+ merchants, driving business growth and team efficiency",
+      ],
+    },
+    {
+      title: "Full Stack Developer",
+      company: "Lahoo Information Ltd",
+      companyType: "News/Media company",
+      timespan: "Oct 2020 - Dec 2024",
+      subText: "Burnaby, BC",
+      tasks: [
+        "Built full stack applications using Next.js, PHP, and MySQL, reducing web application load time by 300%",
+        "Deployed AWS infrastructure including EC2 Auto-scaling, ECS, CloudFront, ELB, S3, and RDS to optimize cloud performance and reduce costs",
+        "Implemented monitoring solutions with stakeholders to enhance product performance and customer satisfaction",
+        "Transformed Figma designs into responsive React components using Tailwind CSS for pixel-perfect front-end development",
+      ],
+    },
+    {
+      title: "Software Developer",
+      company: "Boltz Technology",
+      companyType: "Power-Bank Sharing company",
+      timespan: "Oct 2019 - Feb 2020",
+      subText: "Richmond, BC",
+      tasks: [
+        "Handled Front-end development and built cross-platform mobile apps with Flutter, ensuring exceptional user experience, consistency, and performance optimization",
+      ],
+    },
+  ],
   ashare: [],
   motionMetrics: [
     {
@@ -543,6 +580,44 @@ export const experiencesData: ExperiencesDataType = {
       ],
     },
   ],
+  "prospect-prediction-markets": [
+    {
+      title: "Software Developer",
+      company: "Origineer Consulting Inc",
+      companyType: "Restaurant Technology",
+      timespan: "Mar 2025 - Current",
+      subText: "Burnaby, BC",
+      tasks: [
+        "Sole developer of the operations and sales portal using Next.js, DynamoDB, and Tailwind CSS — built end-to-end and independently, tracking 1,500+ leads and onboarding 60+ merchants",
+        "Built driver signup page and Lambda backend services, owning the full stack from UI to cloud deployment",
+        "Refactored an 8,000-line monolithic file and multiple legacy codebases using AI-assisted tools (Claude Code, Codex), improving modularity, readability, and maintainability",
+        "Led internal initiative to integrate AI into the engineering workflow — researched and implemented Claude, Codex, MCP servers, agent teams, and RAG systems to reduce developer overhead and accelerate delivery",
+        "Integrated Deliverect POS API to expand restaurant partner capabilities and streamline order management workflows",
+      ],
+    },
+    {
+      title: "Full Stack Developer",
+      company: "Lahoo Information Ltd",
+      companyType: "News/Media company",
+      timespan: "Oct 2020 - Dec 2024",
+      subText: "Burnaby, BC",
+      tasks: [
+        "Built full stack applications using Next.js, PHP, and MySQL, reducing web application load time by 300%",
+        "Deployed AWS infrastructure including EC2 Auto-scaling, ECS, CloudFront, ELB, S3, and RDS to optimize cloud performance and reduce costs",
+        "Implemented monitoring solutions with stakeholders to enhance product performance and customer satisfaction",
+        "Transformed Figma designs into responsive React components using Tailwind CSS for pixel-perfect front-end development",
+      ],
+    },
+    {
+      title: "Software Developer",
+      company: "Boltz Technology",
+      companyType: "Power-Bank Sharing company",
+      timespan: "Oct 2019 - Feb 2020",
+      subText: "Richmond, BC",
+      tasks: [
+        "Handled Front-end development and built cross-platform mobile apps with Flutter, ensuring exceptional user experience, consistency, and performance optimization",
+      ],
+    },
+  ],
 };
-experiencesData.coinbase = experiencesData.logo;
 experiencesData.ashare = experiencesData.logo;

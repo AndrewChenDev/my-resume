@@ -7,7 +7,7 @@ export const experiencesData: ExperiencesDataType = {
       title: "Software Developer",
       company: "Origineer Consulting Inc",
       companyType: "Restaurant Technology",
-      timespan: "Mar 2025 - Current",
+      timespan: "Mar 2025 - Mar 2026",
       subText: "Burnaby, BC",
       tasks: [
         "Sole developer of the operations and sales portal using Next.js, DynamoDB, and Tailwind CSS — built end-to-end and independently, tracking 1,500+ leads and onboarding 60+ merchants",

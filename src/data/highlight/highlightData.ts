@@ -210,6 +210,15 @@ export const highlightData: HighlightDataType = {
     "Experienced with CI/CD pipelines, WebSockets, real-time systems, and AI-assisted development tools (Claude Code, Codex); comfortable owning features end-to-end from design to deployment",
     "Strong written and verbal communication skills; thrives in high-ownership, fast-moving engineering cultures",
   ],
+  "electronic-arts": [
+    "5+ years of experience as a full-stack software developer with deep expertise in Next.js, TypeScript, and Node.js",
+    "Diploma in Computer Systems",
+    "Proficient in JavaScript, TypeScript, React.js, Next.js, Node.js, Express, and MySQL with extensive REST API design and third-party integration experience",
+    "Experienced in AWS services (Lambda, ECS, S3, DynamoDB, EventBridge, CloudFront, RDS) and CI/CD pipelines (GitHub Actions) for scalable, production-ready deployments",
+    "Skilled in building responsive, component-driven UIs and backend services end-to-end with a focus on performance and reliability",
+    "Experienced integrating and maintaining third-party APIs; familiar with caching strategies and CDN-based delivery through AWS CloudFront",
+    "Strong collaborator with experience working across design, product, and engineering teams in fast-moving environments",
+  ],
   autodesk: [
     "5+ years of experience as a full-stack software developer building data-rich, production-grade applications",
     "Diploma in Computer Systems",

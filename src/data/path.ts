@@ -22,4 +22,5 @@ export const routes = [
   { company: "epic-games" },
   { company: "automotiv-ai" },
   { company: "prospect-prediction-markets" },
+  { company: "mastercard" },
 ];

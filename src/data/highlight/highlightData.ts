@@ -210,5 +210,14 @@ export const highlightData: HighlightDataType = {
     "Experienced with CI/CD pipelines, WebSockets, real-time systems, and AI-assisted development tools (Claude Code, Codex); comfortable owning features end-to-end from design to deployment",
     "Strong written and verbal communication skills; thrives in high-ownership, fast-moving engineering cultures",
   ],
+  mastercard: [
+    "5+ years of experience as a software developer with hands-on cloud infrastructure design, deployment, and operational support responsibilities",
+    "Diploma in Computer Systems",
+    "Experienced in AWS cloud services (Lambda, ECS, EC2, S3, DynamoDB, EventBridge, CloudFront, RDS) for scalable, production-grade infrastructure",
+    "Proficient in containerization with Docker and ECS; experienced with CI/CD pipelines (GitHub Actions) for automated deployment and delivery workflows",
+    "Skilled in microservices architecture, cloud cost optimization, and infrastructure provisioning across development and production environments",
+    "Experienced in full SDLC practices including design, build, testing, deployment, and operational monitoring with stakeholders",
+    "Strong written and verbal communication skills; experienced collaborating across engineering teams and mentoring through code reviews",
+  ],
 };
 highlightData.ashare = highlightData.logo;

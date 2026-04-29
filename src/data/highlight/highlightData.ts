@@ -255,6 +255,15 @@ export const highlightData: HighlightDataType = {
     "Fluent in AI development tools (Claude Code, Codex, MCP servers) across the full development lifecycle — including custom agent workflows",
     "Strong written and verbal communication skills with experience collaborating across engineering and product teams",
   ],
+  microsoft: [
+    "5+ years of experience as a full-stack software developer with deep expertise in frontend web application development",
+    "Diploma in Computer Systems",
+    "Proficient in JavaScript, TypeScript, React.js, Next.js, HTML, CSS, and Tailwind CSS — experienced building high-performance, user-facing web experiences end-to-end",
+    "Experienced in full-stack and backend development with Node.js, Express, and REST APIs; skilled in AWS cloud infrastructure (Lambda, ECS, S3, DynamoDB, CloudFront, RDS) and CI/CD pipelines",
+    "Skilled in building scalable, maintainable, component-driven UIs with a focus on performance, reliability, and testability",
+    "Fluent in AI development tools (Claude Code, Codex, MCP servers) to automate workflows and accelerate feature delivery",
+    "Strong collaborator with experience working across UX designers, product managers, and engineering teams in fast-moving environments",
+  ],
   rbc: [
     "5+ years of experience as a full-stack software developer with a focus on backend services, data workflows, and cloud infrastructure",
     "Diploma in Computer Systems",

@@ -29,4 +29,5 @@ export const routes = [
   { company: "tandt" },
   { company: "icbc" },
   { company: "rbc" },
+  { company: "microsoft" },
 ];

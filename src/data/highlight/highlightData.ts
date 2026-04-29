@@ -255,6 +255,15 @@ export const highlightData: HighlightDataType = {
     "Fluent in AI development tools (Claude Code, Codex, MCP servers) across the full development lifecycle — including custom agent workflows",
     "Strong written and verbal communication skills with experience collaborating across engineering and product teams",
   ],
+  rbc: [
+    "5+ years of experience as a full-stack software developer with a focus on backend services, data workflows, and cloud infrastructure",
+    "Diploma in Computer Systems",
+    "Proficient in JavaScript, TypeScript, Node.js, and MySQL with strong backend API design, database querying, and ORM-style data access patterns",
+    "Experienced in AWS cloud services (Lambda, ECS, EC2, S3, DynamoDB, EventBridge, RDS) and CI/CD pipelines for automated build, test, and deployment workflows",
+    "Hands-on experience integrating AI and ML tools — including RAG pipelines, MCP servers, and agent-based workflows — to automate developer workflows and accelerate delivery",
+    "Skilled in Agile/Scrum development practices, production troubleshooting, and collaborating with DevOps teams for reliable deployments",
+    "Strong written and verbal communication skills; experienced working across engineering, product, and business stakeholder teams",
+  ],
   mastercard: [
     "5+ years of experience as a software developer with hands-on cloud infrastructure design, deployment, and operational support responsibilities",
     "Diploma in Computer Systems",

@@ -28,4 +28,5 @@ export const routes = [
   { company: "electronic-arts" },
   { company: "tandt" },
   { company: "icbc" },
+  { company: "rbc" },
 ];

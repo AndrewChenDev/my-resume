@@ -27,4 +27,5 @@ export const routes = [
   { company: "autodesk" },
   { company: "electronic-arts" },
   { company: "tandt" },
+  { company: "icbc" },
 ];

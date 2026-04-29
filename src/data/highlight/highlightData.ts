@@ -210,6 +210,15 @@ export const highlightData: HighlightDataType = {
     "Experienced with CI/CD pipelines, WebSockets, real-time systems, and AI-assisted development tools (Claude Code, Codex); comfortable owning features end-to-end from design to deployment",
     "Strong written and verbal communication skills; thrives in high-ownership, fast-moving engineering cultures",
   ],
+  tentree: [
+    "5+ years of experience as a full-stack software developer across ecommerce and media platforms",
+    "Diploma in Computer Systems",
+    "Proficient in JavaScript, TypeScript, React.js, Next.js, Node.js, PHP, and MySQL with extensive REST API and third-party integration experience",
+    "Experienced in AWS services (Lambda, ECS, EC2, S3, DynamoDB, CloudFront, RDS) for scalable, production-grade infrastructure",
+    "Skilled in Tailwind CSS, CI/CD pipelines (GitHub Actions), and containerization with Docker",
+    "Fluent in AI development tools (Claude Code, Codex, MCP servers) across the full development lifecycle — including custom agent workflows",
+    "Strong written and verbal communication skills with experience collaborating across engineering and product teams",
+  ],
   mastercard: [
     "5+ years of experience as a software developer with hands-on cloud infrastructure design, deployment, and operational support responsibilities",
     "Diploma in Computer Systems",

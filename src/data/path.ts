@@ -23,4 +23,5 @@ export const routes = [
   { company: "automotiv-ai" },
   { company: "prospect-prediction-markets" },
   { company: "mastercard" },
+  { company: "tentree" },
 ];

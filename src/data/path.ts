@@ -30,4 +30,6 @@ export const routes = [
   { company: "icbc" },
   { company: "rbc" },
   { company: "microsoft" },
+  { company: "best-buy" },
+  { company: "gumloop" },
 ];

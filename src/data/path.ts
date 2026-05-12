@@ -32,4 +32,8 @@ export const routes = [
   { company: "microsoft" },
   { company: "best-buy" },
   { company: "gumloop" },
+  { company: "bcaa" },
+  { company: "nesto" },
+  { company: "rbc-gft" },
+  { company: "osensa" },
 ];

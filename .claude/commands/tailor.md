@@ -196,6 +196,59 @@ You can now view the tailored resume at: http://localhost:3000/{company}
 - Use underscores for organization names with spaces (e.g., `heart_and_stroke`)
 - Keep it short but recognizable
 
+## Resume Writing Principles
+
+Use these principles to improve the *quality* of the highlights and tasks you generate. They do not change the file-editing workflow above — they guide what content is worth writing.
+
+### The core mindset
+
+A resume is a **sales document**. Its only job is to convince the reader to schedule an interview. The average reader spends ~6 seconds per resume, so every line must earn its place.
+
+- **Relevance beats volume.** More words ≠ better. Per the Pareto Principle, 80% of impact comes from 20% of the content. Irrelevant experience *distracts* from the points that make the candidate stand out. When tailoring, aggressively cut/deprioritize tasks that don't map to the job description.
+- **Every bullet should tell a story**, not just list a duty. A bullet that doesn't convey a story is a wasted line.
+- **Easy to scan in seconds.** Keep it simple: black and white, no images, no "designed" layouts. Recruiters and ATS want to find what they need ASAP.
+
+### Anatomy of a strong bullet (Problem → Skills → Achievement)
+
+Each bullet should ideally convey:
+1. **Problem** — a challenging problem the candidate solved (draws the reader in, sets the stage).
+2. **Skills used** — the relevant hard/soft skills applied to solve it.
+3. **Achievement** — the impact and *why it mattered*. Focus on significance, not just stuffing in numbers. Strong signals: first-to-market, built a playbook/process, drove growth or efficiency, earned a promotion, opened new opportunity.
+
+### Three bullet templates
+
+When drafting or rewriting a task/highlight, reach for one of these:
+
+1. **Problem–Approach–Outcome** — "Resolved [challenge] by [approach/skill], which led to [result]."
+   - *e.g.* "Resolved recurring overspending by implementing a new cost-tracking system, resulting in a 15% reduction in monthly expenses."
+2. **Context–Action–Result (CAR)** — "In [context], [action taken], which [quantifiable/qualitative benefit]."
+   - *e.g.* "In a cross-functional team of 5, led daily stand-ups and sprint planning, which increased on-time delivery from 80% to 95%."
+3. **Skill–Action–Result** — "Used [skill/tool] to [action] resulting in [outcome/impact]."
+   - *e.g.* "Leveraged Python (pandas, NumPy) to build an automated data-cleaning pipeline, reducing manual reporting time by 40%."
+
+### Questions to pressure-test each bullet
+
+If a task feels weak, interrogate it before proposing it:
+- **What was the goal?** What did success look like?
+- **Why did it matter?** What did it mean to the team/company/client/users?
+- **What obstacles made it hard?** Why was it difficult; what was the cost of *not* solving it; had others failed?
+- **What did you do?** Which specific hard *and* soft skills and steps got you there?
+- **What was the impact?** Praise/promotion, faster/cheaper/higher-quality, increased revenue or decreased cost, or a net-new capability.
+
+### Length & format guidance
+
+- **< 10 years experience → 1 page.** 10+ years → up to 2 pages, only if truly necessary. (Regional exceptions exist: Europe, Australia, APAC.)
+- Prefer simple black-and-white formatting; avoid images unless the field is creative or the region expects it.
+
+### Handling common "risk flags"
+
+Tailoring can quietly de-risk a candidate's profile. Where relevant and truthful, consider:
+- **Overqualified?** Trim less-relevant senior experience, soften overly senior titles, and consider dropping graduation dates (to reduce age profiling) — as long as this doesn't create gaps.
+- **Career gap?** Fill with certifications, freelance/pro-bono work, or education from that period; or drop outdated early roles.
+- **Non-Western market experience?** De-emphasize locations, note if a prior employer was a recognized industry leader, and surface work with international clients/teams.
+
+> Only ever apply these to content the candidate genuinely has. Never fabricate — this reframes and reprioritizes real experience; it does not invent it.
+
 ## Example
 
 For `/tailor stripe` with a backend-focused job description mentioning Node.js, APIs, and payments:

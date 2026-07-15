@@ -36,4 +36,6 @@ export const routes = [
   { company: "nesto" },
   { company: "rbc-gft" },
   { company: "osensa" },
+  { company: "swenam" },
+  { company: "lmi" },
 ];

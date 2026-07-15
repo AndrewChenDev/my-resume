@@ -336,5 +336,23 @@ export const highlightData: HighlightDataType = {
     "Fluent in AI development tools (Claude Code, Codex) to streamline workflows, improve code quality, and accelerate feature delivery",
     "Proven ability to manage multiple projects simultaneously, collaborate with cross-functional teams, and drive process improvements in Agile/Scrum environments",
   ],
+  swenam: [
+    "5+ years of experience as a full-stack software developer building secure portals, dashboards, and business-critical web applications",
+    "Diploma in Computer Systems",
+    "Proficient in JavaScript, TypeScript, React.js, Next.js, Node.js, PHP, and MySQL — covering the full stack from responsive UIs to backend APIs and database design",
+    "Built role-based portals and admin dashboards end-to-end — including a sales & operations portal tracking 1,500+ leads and onboarding 60+ users",
+    "Experienced integrating third-party systems — payment/POS APIs, email tools, and order-management workflows — into production web platforms",
+    "Skilled in WordPress, responsive mobile-friendly design, and web performance optimization (SEO, speed — cut load times by 300%)",
+    "Strong communicator who works independently while coordinating across marketing, operations, and management teams",
+  ],
+  lmi: [
+    "5+ years of experience as a front-end and full-stack web developer building production websites, landing pages, and marketing web properties",
+    "Diploma in Computer Systems",
+    "Hands-on WordPress development — building custom themes and plugins, customizing page builders, and optimizing sites for performance, SEO, and cross-browser responsiveness",
+    "Proficient in HTML5, CSS3, JavaScript, TypeScript, and PHP with a strong grasp of responsive design and UI/UX best practices",
+    "Skilled in translating Figma mockups into responsive, cross-browser, mobile-friendly pages with pixel-perfect precision",
+    "Experienced in web performance optimization and SEO — surfaced live analytics that drove web design and conversion decisions",
+    "Strong collaborator with marketing and product teams; comfortable owning site security, stability, and troubleshooting",
+  ],
 };
 highlightData.ashare = highlightData.logo;
